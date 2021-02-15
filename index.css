@@ -1,0 +1,144 @@
+body{
+    margin:0;
+    padding:0;
+}
+/* Centered and up front header */
+#homePage{
+    display:flex;
+    flex-direction:flex-end;
+    justify-content:center;
+    color:rgb(109, 94, 8);
+    border:black solid 2px;
+    font-size:130px;
+}
+
+#homeBelow{
+    display:flex;
+    flex-direction:flex-end;
+    justify-content:center;
+    color:black;
+    border:gold 2px;
+    font-size: 50px;
+}
+#announcement{
+    font-size:50px;
+}
+#features{
+    display: inline;
+    justify-content: center;
+
+
+}
+/* Spacing out the top three photos */
+#stress{
+    flex-direction:row;
+    margin: 10vw;
+}
+
+h1{
+    display:inline;
+    justify-content: center;
+    margin:9vw;
+}
+/* First section of content with lorem ipsums */
+#main{
+    display:flex;
+    justify-content:center;
+    /* border:solid 1px black; */
+    height: 75vh;
+    width:100vw;
+
+}
+
+#content-1{
+    display:flex;
+    justify-content:space-evenly;
+    /* border:solid 1px red; */
+    height:71vh;
+    width:70vw;
+
+}
+#left-content{
+    /* border:solid 1px green; */
+    display:flex;
+    flex-direction:column;
+    height:71vh;
+    width:65%;
+}
+#learn-more-1{
+    display:flex;
+    color:black;
+    justify-content:center;
+    align-items:center;
+    background-color:gold;
+    height:40px;
+    width:200px;
+}
+
+
+#right-content{
+    /* border:solid 1px purple; */
+    display:flex;
+    flex-direction:column;
+    height:71vh;
+    width:30%;
+}
+/* How to get the buttons to change color when pressed */
+#interactive-button-date{
+    display:flex;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    background-color:purple;
+    height:40px;
+    width:200px;
+}
+/* Hover over function */
+#interactive-button-date:hover{
+    background-color:tan
+}
+
+/* Next section of content */
+#main2{
+    display:flex;
+    justify-content:center;
+    /* border:solid 1px black; */
+    height: 100vh;
+    width:100vw;
+}
+
+#content-2{
+    display:flex;
+    justify-content: space-evenly;
+    /* border:solid 1px red; */
+    height:100vh;
+    width:70vw;
+
+}
+#left-content-2{
+    
+    /* border:solid 1px green; */
+    display:flex;
+    flex-direction:column;
+    height:90vh;
+    width:65%;
+}
+#right-content-2{
+    /* border:solid 1px purple; */
+    display:flex;
+    flex-direction:column;
+    height:71vh;
+    width:30%;
+}
+/* Starting the footer content */
+#footer{
+    display:flex;
+    justify-content:center;
+    border:solid 1px black;
+    background-color: gray;
+    height: 30vh;
+    width:100vw;
+}
+#footer-header{
+font-size: 40px;
+}
