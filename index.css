@@ -1,149 +1,152 @@
-body{
-    margin:0;
-    padding:0;
+body {
+  margin: 0;
+  padding: 0;
 }
-/* Centered and up front header */
-#homePage{
-    display:flex;
-    flex-direction:flex-end;
-    justify-content:center;
-    color:rgb(109, 94, 8);
-    border:black solid 2px;
-    font-size:130px;
+/* Header CSS */
+.header-container {
+  display: flex;
+  flex-direction: column;
+  height: 25vh;
+  width: 100vw;
+  border: 2px, black;
+}
+/* Homepage words */
+.homepage-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Homepage text */
+#homepage {
+  display: flex;
+  flex-direction: flex-end;
+  justify-content: center;
+  color: rgb(109, 94, 8);
+  border: black solid 2px;
+  font-size: 130px;
+}
+/* "The page for the home" text */
+#homepage-two {
+  display: flex;
+  flex-direction: flex-end;
+  justify-content: center;
+  color: black;
+  border: gold 2px;
+  font-size: 50px;
+}
+/* Section containing the top three photos, text, and the learn more */
+.features-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* styling for the buttons */
+#interactive-button-date {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  height: 40px;
+  width: 200px;
+}
+/* Widebar area container */
+.widebar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  width: 100vw;
+  border:2px solid black;
+  margin-top:5vh;
+}
+#widebar{
+    font-size: 100px;
+    display: flex;
+}
+/* container for the main content, holds left and right content containers */
+.content-container{
+  display: flex;
+  flex-direction: row;
+  height: 200vh;
+  width: 100vw;
+
+  border: 2px solid black;
+}
+/* Left side content */
+.left-content-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 110vh;
+  width: 50vw;
+  border:2px solid gray
+}
+/* right side content */
+.right-content-container{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: flex-start;
+  height: 110vh;
+  width: 30vw;
+  border:2px solid gray
 }
 
-#homeBelow{
-    display:flex;
-    flex-direction:flex-end;
-    justify-content:center;
-    color:black;
-    border:gold 2px;
-    font-size: 50px;
+/* Footer CSS, universal */
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100vw;
 }
-#announcement{
-    font-size:50px;
+/* Left side footer */
+.left-footer-container {
+  display: flex;
+  flex-direction: column;
 }
-#features{
-    display: inline;
-    justify-content: center;
-
-
+/* Name and email CSS */
+.name-email-container {
+  width: 20vw;
+  display: flex;
+  justify-content: space-evenly;
 }
-/* Spacing out the top three photos */
-#stress{
-    flex-direction:row;
-    margin: 10vw;
+#name {
+  width: 9.5vw;
 }
-
-h1{
-    display:inline;
-    justify-content: center;
-    margin:9vw;
+#email {
+  width: 9.5vw;
 }
-/* First section of content with lorem ipsums */
-#main{
-    display:flex;
-    justify-content:center;
-    /* border:solid 1px black; */
-    height: 95vh;
-    width:100vw;
-
+/* Message CSS */
+#message {
+  width: 20vw;
+  height: 15vh;
+  resize: none;
 }
-
-#content-1{
-    display:flex;
-    justify-content:space-evenly;
-    /* border:solid 1px red; */
-    height:71vh;
-    width:70vw;
-
+/* Right footer CSS */
+.right-footer-container {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  justify-content: center;
+  align-items: center;
 }
-#left-content{
-    /* border:solid 1px green; */
-    display:flex;
-    flex-direction:column;
-    height:71vh;
-    width:65%;
+/* targets all logos with paragraphs */
+.logo-block {
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+  justify-content: space-evenly;
 }
-#learn-more-1{
-    display:flex;
-    color:black;
-    justify-content:center;
-    align-items:center;
-    background-color:gold;
-    height:40px;
-    width:200px;
+.footer-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-
-#right-content{
-    /* border:solid 1px purple; */
-    display:flex;
-    flex-direction:column;
-    height:71vh;
-    width:30%;
-}
-/* How to get the buttons to change color when pressed */
-#interactive-button-date{
-    display:flex;
-    color:white;
-    justify-content: center;
-    align-items: center;
-    background-color:purple;
-    height:40px;
-    width:200px;
-}
-/* Hover over function */
-#interactive-button-date:hover{
-    background-color:tan
-}
-
-/* Next section of content */
-#main2{
-    display:flex;
-    justify-content:center;
-    /* border:solid 1px black; */
-    height: 100vh;
-    width:100vw;
-}
-
-#content-2{
-    display:flex;
-    justify-content: space-evenly;
-    /* border:solid 1px red; */
-    height:100vh;
-    width:70vw;
-
-}
-#left-content-2{
-    
-    /* border:solid 1px green; */
-    display:flex;
-    flex-direction:column;
-    height:90vh;
-    width:65%;
-}
-#right-content-2{
-    border:solid 1px purple;
-    display:flex;
-    flex-direction:column;
-    height:71vh;
-    width:30%;
-}
-.first-right-post{
-    position:relative;
-    float:left;
-
-}
-/* Starting the footer content */
-#footer{
-    display:flex;
-    justify-content:center;
-    border:solid 1px black;
-    background-color: gray;
-    height: 30vh;
-    width:100vw;
-}
-#footer-header{
-font-size: 40px;
+/* Target all logos specifically */
+.logos {
+  width: 2vw;
 }

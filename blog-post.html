@@ -1,12 +1,106 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>Blog Post</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  </head>
-  <body>
-    <section id="header"></section>
-    <section id="main"></section>
-  </body>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+
+<body>
+    <!-- Header that includes the name of the page and the section for posts -->
+    <div id="header">
+        <h1>Blog Post</h1>
+        <h3>Post of Posts</h3>
+    </div>
+    <div id="main">
+        <!-- Title and the lorem that goes in the first section -->
+        <h2>Interesting Thing</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum perferendis praesentium voluptatibus optio
+            consequuntur ratione totam saepe omnis error pariatur labore atque in quo eaque, vel esse ipsa natus. Odit
+            magnam corporis adipisci corrupti quam excepturi aperiam repudiandae cum incidunt, nam non sapiente velit
+            culpa. Non nulla voluptatibus magnam quidem!</p>
+        <br>
+        <!-- Second post with another title and text -->
+        <h3>Another Title</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam cupiditate repellat velit tempore
+            temporibus minima saepe, alias quisquam ut atque cumque ipsum eum maxime nisi, architecto doloribus
+            laudantium ullam ab. Laboriosam atque explicabo sed vero rem delectus dolores. Explicabo maiores dicta,
+            laboriosam molestias quo ipsam.</p>
+        <!-- Third title and post that goes with said post -->
+        <h3>Another Title Again</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, dignissimos. Voluptas, quos aliquid
+            voluptatum excepturi, harum commodi aliquam, unde sed ratione obcaecati ut minima placeat. Rerum recusandae
+            magnam nihil delectus adipisci dolorem blanditiis.</p>
+    </div>
+
+
+    <!-- Footer header -->
+    <center>
+        <h2>Questions? Get in touch</h2>
+    </center>
+    <!-- Footer container -->
+    <div class="footer-container">
+        <!-- Left side with name, email, message, send message -->
+        <div class="left-footer-container">
+            <!-- Section for entering your name, email. -->
+            <div class="name-email-container">
+                <input id="name" type="text" placeholder="name" />
+                <input id="email" type="text" placeholder="email" />
+            </div>
+            <!-- Section for typing in a message in a text area and sending it -->
+            <textarea id="message" placeholder="message"></textarea>
+            <button id="send message">Send Message</button>
+        </div>
+        <!-- Right side with lorem, address, phone, email -->
+        <div class="right-footer-container">
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+            <div class="logo-block">
+                <!-- The block containing the left half of the logos: Address, phone, email and facebook -->
+                <div class="left-half-logos">
+                    <div class="footer-logo">
+                        <img class="logos" src="\icons\footerlink-home.png" />
+                        <p>44444 street</p>
+                    </div>
+                    <div class="footer-logo">
+                        <img class="logos" src="\icons\footerlink-phone.png" />
+                        <p>802-802-8002</p>
+                    </div>
+                    <div class="footer-logo">
+                        <img class="logos" src="\icons\footerlink-email.png" />
+                        <p>email@email.email</p>
+                    </div>
+                    <div class="footer-logo">
+                        <img class="logos" src="\icons\footerlink-facebook.png" />
+                        <p>facebook.com</p>
+                    </div>
+                </div>
+                <!-- The block containing the right half of the logos: twitter, instagram, github, and dribble -->
+                <div class="right-half-logos">
+                    <div class="footer-logo">
+                        <img class="logos" src="\icons\footerlink-twitter.png" />
+                        <p>twitter.com</p>
+                    </div>
+                    <div class="footer-logo">
+                        <img class="logos" src="\icons\footerlink-instagram.png" />
+                        <p>instagram.com</p>
+                    </div>
+                    <div class="footer-logo">
+                        <img class="logos" src="\icons\gj-github1.png" />
+                        <p>github.com</p>
+                    </div>
+                    <div class="footer-logo">
+                        <img class="logos" src="\icons\footerlink-dribbble.png" />
+                        <p>dribble.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    </div>
+</body>
+
 </html>
